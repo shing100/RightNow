@@ -31,9 +31,4 @@ public class TestController {
     public String boardWrite() {
         return "write";
     }
-
-    @RequestMapping("/map")
-    String map() {
-        return "map";
-    }
 }

@@ -62,9 +62,4 @@ public class MemberController {
 
         return json;
     }
-
-    @RequestMapping(value = "/getName", method = RequestMethod.GET)
-    public String getName() {
-        return memberService.getMemberId();
-    }
 }
